@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Celebrant Site</title>
+    <title>Sophie Greeves Celebrant</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="fonts.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="fonts.css" />
   </head>
   <body class="lato-regular">
     <header>
@@ -24,7 +24,6 @@
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
             <li><a href="#testimonials">Testimonials</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -44,9 +43,10 @@
       </section>
 
       <section id="about">
-        <div>
-          <h2>About Me</h2>
-          <p>
+        <h2>About Me</h2>
+
+        <div class="about-content">
+          <p class="about-copy">
             Hi, I'm Sophie, a celebrant dedicated to helping families honor
             their loved ones with warmth and positivity. I believe funerals are
             not just farewells but a chance to celebrate a life well-lived.
@@ -55,19 +55,56 @@
             and memories. With a blend of tradition and uplifting touches, I
             create meaningful services that bring comfort, joy, and peace. Let's
             create a heartfelt tribute that celebrates life with love and light.
-          </p>
-          <p>
             I am based in South East London and cover the surrounding areas,
             such as Kent, Surrey, and Sussex.
           </p>
+          <img src="/headshot.jpeg" />
         </div>
-        <img src="/headshot.jpeg" />
       </section>
 
       <section id="testimonials">
         <h2>Testimonials</h2>
-        <p>"A wonderful celebrant who made our day unforgettable."</p>
-        <p>"Professional, kind, and deeply personal service."</p>
+        <div class="testimonials-content">
+          <article class="testimonial">
+            <img src="https://avatar.iran.liara.run/public/5" />
+            <h1>Person #1</h1>
+            <p>
+              "We were so grateful for [Celebrant's Name]'s guidance during such
+              a difficult time. They managed to strike the perfect balance
+              between honoring tradition and celebrating my father’s life. Their
+              calm demeanor and heartfelt words brought comfort to everyone
+              present. The service was everything we hoped for—dignified, warm,
+              and deeply personal. Thank you for making such a hard day a little
+              easier."
+            </p>
+          </article>
+          <article class="testimonial">
+            <img src="https://avatar.iran.liara.run/public/15" />
+            <h1>Person #2</h1>
+            <p>
+              "We were looking for someone who could respect our family’s
+              traditions but also bring a sense of light and celebration to the
+              service. [Celebrant's Name] delivered exactly that. They took the
+              time to learn about my mother’s life and shared her story with
+              such care and sensitivity. It truly felt like a celebration of her
+              legacy while still being respectful and traditional. We couldn’t
+              have asked for a better person to lead the ceremony."
+            </p>
+          </article>
+          <article class="testimonial">
+            <img src="https://avatar.iran.liara.run/public/12" />
+            <h1>Person #3</h1>
+            <p>
+              "From our very first meeting, [Celebrant's Name] made us feel at
+              ease. They have a unique ability to honor tradition while creating
+              a service that truly feels like a celebration of life. Every
+              detail was handled with care, and their words were so meaningful.
+              Our family and friends all commented on how beautiful and
+              uplifting the ceremony was. We’ll always be thankful for the role
+              they played in helping us say goodbye."
+            </p>
+          </article>
+        </div>
       </section>
 
       <section id="contact">
@@ -98,7 +135,10 @@
     </main>
 
     <footer>
-      <p>&copy; 2024 Celebrant Services. All rights reserved.</p>
+      <p>
+        &copy; 2025 Sophie Greeves. All rights reserved. Built and Designed by
+        <a href="https://www.joereddie.co.uk">Joe Reddie</a>
+      </p>
     </footer>
   </body>
 </html>
