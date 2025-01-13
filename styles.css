@@ -100,12 +100,13 @@ section {
 
   img {
     height: fit-content;
-    width: auto;
-    max-width: 400px;
+    width: 400px;
     object-fit: contain;
     object-position: top;
+    justify-self: center;
+    align-self: center;
 
-    border: 10px solid white;
+    border: 8px solid white;
     border-radius: 8px;
     box-shadow: 8px 8px var(--blue-50);
     flex: 1;
@@ -113,10 +114,21 @@ section {
 
   .about-content {
     display: flex;
+    align-self: center;
+    gap: 2rem;
+    padding: 2rem;
   }
 
   .about-copy {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    background-color: var(--blue-95);
+    padding: 32px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-content {
+    flex-direction: column;
   }
 }
 
@@ -239,5 +251,5 @@ html {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
