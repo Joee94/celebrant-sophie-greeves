@@ -61,7 +61,7 @@ section {
 }
 
 #home {
-  background: url(/hero.jpg);
+  background: url(/assets/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
