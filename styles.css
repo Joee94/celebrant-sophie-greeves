@@ -17,7 +17,7 @@ main {
 }
 
 header {
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   position: fixed;
   width: 100%;
   top: 0;
@@ -26,7 +26,6 @@ header {
   -webkit-box-shadow: 0px 1px 4px 0px var(--dark);
   -moz-box-shadow: 0px 1px 4px 0px var(--dark);
   box-shadow: 0px 1px 4px 0px var(--dark);
-  height: 64px;
   color: black;
   text-wrap: nowrap;
 }
@@ -43,9 +42,9 @@ a {
 }
 
 .celebrant-name {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 800;
-  color: var(--dark);
+  color: var(--black);
 }
 
 nav ul {
@@ -208,7 +207,7 @@ html {
   }
 
   section {
-    padding: 6rem 2rem;
+    padding: 6rem 1rem;
     min-height: 100vh;
   }
 
@@ -286,7 +285,9 @@ h2 {
     background-color: var(--light);
     text-align: center;
     border-radius: 8px;
-    padding: 1rem 10rem;
+    padding: 16px;
     font-size: 1.5rem;
+    text-wrap: wrap;
+    width: 400px;
   }
 }
