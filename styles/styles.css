@@ -23,9 +23,7 @@ header {
   top: 0;
   z-index: 1000;
   background: var(--base);
-  -webkit-box-shadow: 0px 1px 4px 0px var(--dark);
-  -moz-box-shadow: 0px 1px 4px 0px var(--dark);
-  box-shadow: 0px 1px 4px 0px var(--dark);
+  border-bottom: 2px solid var(--light);
   color: black;
   text-wrap: nowrap;
 }
@@ -268,7 +266,7 @@ h2 {
   text-align: center;
 }
 
-#prices {
+#pricing {
   font-size: 1.25rem;
   max-width: 1000px;
   display: flex;
@@ -281,7 +279,7 @@ h2 {
     color: var(--black);
   }
 
-  .pricing {
+  .cost {
     background-color: var(--light);
     text-align: center;
     border-radius: 8px;
